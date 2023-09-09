@@ -1,0 +1,39 @@
+.overlay
+{
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+.spanbg
+{
+    background-color: white !important;
+    width: 55%;
+    margin: auto;
+    border: none;
+    border-radius: 25px;
+    padding: 10px;
+}
+
+.mybg
+{
+    background: none !important;
+    border-color: white !important;
+}
+
+@media (max-width:1000px) {
+    .main
+    {
+        width: 80vw;
+        margin: auto !important;
+    }
+
+    .spanbg
+    {
+        width: 80%;
+    }
+
+    .tablem
+    {
+        width: 90% !important;
+        margin: auto !important;
+    }
+}
